@@ -1,0 +1,49 @@
+#s3ctr {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  margin: 0;
+  margin-top: 25vh;
+  position: absolute;
+  z-index: 1;
+  color: #f3eff5;
+}
+
+.body {
+  background-image: url(images/CloudsBG.webp);
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+#holder {
+  margin: 0;
+  position: relative;
+  top: 20%;
+  left: 0;
+  height: 500px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+}
+
+#info {
+  z-index: 1;
+  width: 105px;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
